@@ -1,5 +1,5 @@
 Timeline_edit_button_icon:
-  default: "plus"
+  default: "pencil-alt"
   description:
     en: Choose an icon for the button. You can use any FontAwesome 4.7 icon name like "music" or "star" without quote marks. 
 Timeline_edit_button_text:
