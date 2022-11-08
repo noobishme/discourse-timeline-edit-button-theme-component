@@ -15,9 +15,3 @@
     margin-right: 0;
   }
 }
-
-@if $Hide_default_button == "true" {
-  button#timeline-edit-button {
-    display: none;
-  }
-}
