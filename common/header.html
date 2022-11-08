@@ -16,27 +16,12 @@ api.decorateWidget("header-buttons:after", helper => {
     composerModal = require("discourse/models/composer").default,
     composerController = container.lookup("controller:composer");
 
-  const createTopic = function() {
-    const controller = container.lookup("controller:navigation/category"),
-      category = controller.get("category.id"),
-      topicCategory = container
-        .lookup("route:topic")
-        .get("context.category.id"),
-      categoryd = topicCategory ? topicCategory : category;
-
-    composerController.open({
-      action: composerModal.CREATE_TOPIC,
-      categoryId: categoryd,
-      draftKey: composerModal.DRAFT
-    });
-  };
-
   return helper.h(
     ntb_button_helper,
     {
       className: ntb_button_class,
       title: ntb_title,
-      onclick: createTopic
+      onclick: editPost
     },
     [iconNode(ntb_icon), helper.h(ntb_label_helper, ntb_text)]
   );
