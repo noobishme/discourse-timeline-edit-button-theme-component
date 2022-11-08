@@ -1,17 +1,17 @@
 @media (max-width: 850px) {
-  #timeline-edit-topic span {
+  #timeline-edit-button span {
     display: none;
   }
-  #timeline-edit-topic i {
+  #timeline-edit-button i {
     margin-right: 0;
   }
 }
 
-@if $Timeline_edit_topic_text == "" {
-  #timeline-edit-topic span {
+@if $Timeline_edit_button_text == "" {
+  #timeline-edit-button span {
     display: none;
   }
-  #timeline-edit-topic i {
+  #timeline-edit-button i {
     margin-right: 0;
   }
 }
