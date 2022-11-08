@@ -1,5 +1,5 @@
 @media (max-width: 850px) {
-  #new-create-topic span {
+  #new-edit-topic span {
     display: none;
   }
   #new-create-topic i {
@@ -8,16 +8,16 @@
 }
 
 @if $New_topic_button_text == "" {
-  #new-create-topic span {
+  #new-edit-topic span {
     display: none;
   }
-  #new-create-topic i {
+  #new-edit-topic i {
     margin-right: 0;
   }
 }
 
 @if $Hide_default_button == "true" {
-  button#create-topic {
+  button#edit {
     display: none;
   }
 }
