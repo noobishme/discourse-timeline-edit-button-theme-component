@@ -5,9 +5,9 @@ api.decorateWidget("header-buttons:after", helper => {
   if (!api.getCurrentUser()) return;
 
   let container = api.container,
-    ntb_text = settings.Timeline_edit_button_text,
-    ntb_title = settings.Timeline_edit_button_title.length
-      ? settings.Timeline_edit_button_title
+    ntb_text = settings.Timeline_edit_topic_text,
+    ntb_title = settings.Timeline_edit_topic_title.length
+      ? settings.Timeline_edit_topic_title
       : ntb_text,
     ntb_icon = settings.Timeline_edit_button_icon,
     ntb_button_class = "btn btn-default btn btn-icon-text",
