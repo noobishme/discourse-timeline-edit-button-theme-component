@@ -7,7 +7,7 @@
   }
 }
 
-@if $Timeline_edit_topic_button_text == "" {
+@if $Timeline_edit_button_text == "" {
   #timeline-edit-topic span {
     display: none;
   }
