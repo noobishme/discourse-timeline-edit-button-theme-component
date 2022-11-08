@@ -10,4 +10,3 @@ Timeline_edit_button_title:
   default: ""
   description:
     en: "Enter the title you want the button to use. If this is left empy, the title will be the same as the button text"
-
