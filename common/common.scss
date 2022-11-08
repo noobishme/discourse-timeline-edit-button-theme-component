@@ -17,7 +17,7 @@
 }
 
 @if $Hide_default_button == "true" {
-  button#edit {
+  button#timeline-edit-button {
     display: none;
   }
 }
