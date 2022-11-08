@@ -10,7 +10,4 @@ Timeline_edit_button_title:
   default: ""
   description:
     en: "Enter the title you want the button to use. If this is left empy, the title will be the same as the button text"
-Hide_default_button:
-  default: true
-  description:
-    en: Hide the default "Edit topic" button in topic lists?
+
